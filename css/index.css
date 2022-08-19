@@ -1,0 +1,166 @@
+body {
+    margin: 0;
+}
+
+/* Header */
+
+.header-container {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 150px;
+    box-shadow: 0px 1px 10px black;
+    padding: 0 80px 0 20px;
+}
+
+.header-logo-picture {
+    width: 130px;
+}
+
+.header-navbar {
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+h1 , h2 {    
+    margin: 0;
+    font-weight: 400;
+    padding: 0 20px 0 20px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    font-size: 1.4rem;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+
+span:hover {
+    border-width: 2px;
+    border-style: solid;
+      -o-border-image: linear-gradient( to right, #77bacb, #a1d3a7 ) 1 0%;
+         border-image: linear-gradient( to right, #77bacb, #a1d3a7 ) 1 0%;
+}
+
+/* Section */
+
+.section-container {
+    display: flex;
+    align-items: flex-end;
+    height: 450px;
+    justify-content: center;
+}
+
+.section-parting-picture {
+    width: 100%;
+    height: 450px;
+    -o-object-fit: cover;
+       object-fit: cover;
+   -o-object-position: 0px -180px;
+      object-position: 0px -180px;
+      position: absolute;
+}
+
+.section-parting {    
+    display: flex;
+    background-color: white;
+    height: 22%;
+    width: 80%;
+    position: relative;
+    justify-content: space-evenly;
+    text-align: center;
+    align-items: center;
+    bottom: -50px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+
+.section-parting-info {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+li {
+    border-right: 2px solid black;
+    height: 100%;
+    list-style-type: none;
+}
+
+i {
+    font-size: 2rem;
+}
+
+ul {
+    padding: 0;
+}
+
+button {    
+    display: flex;
+    border: none;
+    padding: 0;
+    background-color: white;
+    align-items: center;
+    cursor: pointer;
+}
+
+#timetable-section {
+    display: none;
+    position: absolute;
+    top: 83px;
+    left: -2px;
+    background-color: white;
+    width: 27.4%;
+    border: 2px solid black;
+    border-top: none;
+    border-radius: 0 0 10px 10px;
+}
+
+@-webkit-keyframes rotation {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(90deg);
+    }
+}
+
+@keyframes rotation {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(90deg);
+    }
+}
+
+
+@-webkit-keyframes inverserotation {
+    from {
+        transform: rotate(90deg);
+    }
+    to {
+        transform: rotate(0deg);
+    }
+}
+
+
+@keyframes inverserotation {
+    from {
+        transform: rotate(90deg);
+    }
+    to {
+        transform: rotate(0deg);
+    }
+}
