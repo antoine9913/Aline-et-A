@@ -12,6 +12,9 @@
     <title>Aline et A</title>
   </head>
   <body>
+    <div id="btn-section-up-page">
+      <i class="fa fa-solid fa-arrow-up logo-up-page"></i>
+    </div>
     <header>
       <div class="header-container">
         <div class="header-logo">
@@ -22,11 +25,11 @@
           />
         </div>
         <div class="header-navbar">
-          <h1>Coiffeuse . Créatrice spécialisé en coiffure féminine</h1>
+          <h1>Coiffeuse . Créatrice spécialisée en coiffure féminine</h1>
           <nav>
-            <a href="index.html"> <span>Acceuil</span></a>
-            <a href="Produits"> <span>Produits</span></a>
+            <a href="index.html"> <span>Accueil</span></a>
             <a href="Collections"> <span>Collections</span></a>
+            <a href="Produits"> <span>Produits</span></a>
             <a href="Services"> <span>Services</span></a>
             <a href="Contact"> <span>Contact</span></a>
           </nav>
@@ -34,8 +37,8 @@
       </div>
     </header>
 
-    <section>
-      <div class="section-container">
+    <main>
+      <section class="section-container">
         <img
           class="section-parting-picture"
           src="./img/20170303_082138.jpg"
@@ -45,7 +48,7 @@
           <div class="section-parting-info">
             <button class="timetableBtn" onclick="timetableBtn()">
               <i class="fa fa-solid fa-clock"></i>
-              <h2>Horraires</h2>
+              <h2>Horaires</h2>
               <i class="fa fa-solid fa-angle-right" id="angleright"></i>
             </button>
             <div id="timetable-section">
@@ -72,17 +75,17 @@
               </ul>
             </div>
           </div>
-          <li></li>
+          <li class="separation-parting-info"></li>
           <a href="">
             <div class="section-parting-info">
               <i class="fa fa-solid fa-map-pin"></i>
               <div class="section-parting-info-location">
-                <h2>5 Avenue du 45e parralleles</h2>
+                <h2>5 Avenue du 45e parallèles</h2>
                 <h2>Pont de l'Isère</h2>
               </div>
             </div>
           </a>
-          <li></li>
+          <li class="separation-parting-info"></li>
           <a href="">
             <div class="section-parting-info">
               <i class="fa fa-solid fa-phone fa-rotate-90"></i>
@@ -90,42 +93,136 @@
             </div>
           </a>
         </div>
-      </div>
-      <div class="section-presentation">
-        <img
-          class="section-presentation-picture"
-          src="./img/20160903_105518.jpg"
-          alt="image coiffure de mariée"
-        />
-        <div class="section-presentation-paragraph">
+      </section>
+
+      <section class="section-presentation">
+        <div class="section-presentation-container-picture">
+          <a class="section-presentation-picture-href" href="Collections">
+            <h3 class="section-presentation-picture-header-collections">
+              Collections
+            </h3>
+            <button
+              class="section-presentation-picture-btn-collections"
+            ></button>
+          </a>
+        </div>
+        <div class="section-presentation-paragraph paragraph-1">
+          <img
+            src="./img/images.png"
+            alt="logo paint brush"
+            class="logo-paint-brush-1"
+          />
           <p>
-            Le salon de coiffure Aline et A situé a Pont de l'Isère a le plaisir
+            Le salon de coiffure Aline et A situé à Pont de l'Isère a le plaisir
             de vous accueillir dans un espace rénové et modernisé pour prendre
             soin de vos cheveux et mettre en valeur votre beauté.
           </p>
+          <li class="separation-scisors">
+            <i class="fa fa-solid fa-scissors scisors-icons"></i>
+          </li>
           <p>
             Riche de plusieurs années de pratique et d’une expérience unique
-            votre coiffeuse créatrice Béchu Aline, saura vous guider et vous
+            votre coiffeuse créatrice Aline, saura vous guider et vous
             conseiller.
           </p>
+          <li class="separation-scisors">
+            <i
+              class="fa fa-solid fa-scissors fa-rotate-180 scisors-icons-reverse"
+            ></i>
+          </li>
           <p>
             Votre coiffeuse saura être à l'écoute de vos désirs, de vos envies,
             tout en respectant la nature, la spécificité et la qualité de vos
             cheveux.
           </p>
+          <li class="separation-scisors">
+            <i class="fa fa-solid fa-scissors scisors-icons"></i>
+          </li>
           <p>
             Chez Aline et A, vous trouverez un accord parfait entre les produits
             haut de gamme et exigences techniques dans tous les soins qui vous
             seront dispensés.
           </p>
         </div>
-      </div>
-    </section>
+      </section>
+
+      <section class="section-presentation">
+        <div class="section-presentation-paragraph paragraph-2">
+          <img
+            src="./img/images.png"
+            alt="logo paint brush"
+            class="logo-paint-brush-2"
+          />
+          <p>
+            Vous trouverez chez Aline et A une vaste gamme de produits pour
+            entretenir et soigner votre chevelure.
+          </p>
+          <li class="separation-scisors">
+            <i class="fa fa-solid fa-scissors scisors-icons"></i>
+          </li>
+          <p>
+            Tout pour la beauté et l'entretien de vos cheveux tout en respectant
+            l'environnement puisque de nombreux shampoings et soins est composé
+            jusqu'à 98% des produits naturels !
+          </p>
+          <li class="separation-scisors">
+            <i
+              class="fa fa-solid fa-scissors fa-rotate-180 scisors-icons-reverse"
+            ></i>
+          </li>
+          <p>
+            Tout pour la santé de votre cuir chevelu avec une gamme de
+            shampooings et soins adaptés à vos problèmes de cuir cheveux et
+            problème de chute de cheveux.
+          </p>
+        </div>
+        <div class="section-presentation-container-picture">
+          <a class="section-presentation-picture-href" href="Produits">
+            <h3 class="section-presentation-picture-header-produits">
+              Produits
+            </h3>
+            <button class="section-presentation-picture-btn-produits"></button>
+          </a>
+        </div>
+      </section>
+
+      <section class="section-presentation">
+        <div class="section-presentation-container-picture">
+          <a class="section-presentation-picture-href" href="Services">
+            <h3 class="section-presentation-picture-header-services">
+              Services
+            </h3>
+            <button class="section-presentation-picture-btn-services"></button>
+          </a>
+        </div>
+        <div class="section-presentation-paragraph paragraph-3">
+          <img
+            src="./img/images.png"
+            alt="logo paint brush"
+            class="logo-paint-brush-3"
+          />
+          <p>
+            Envie de changer de tête, envie de lumière, d'un coup d'éclat, une
+            couleur lumineuse, un dégradé de couleur tout en douceur, une
+            harmonie entre le naturel et la fantaisie.
+          </p>
+          <li class="separation-scisors">
+            <i class="fa fa-solid fa-scissors scisors-icons"></i>
+          </li>
+          <p>
+            Aline et A vous proposera une multitude de services différents pour
+            sublimer vos cheveux soit dans la forme soit dans la couleur en
+            fonction de vos envies et dans le respect de vos cheveux.
+          </p>
+        </div>
+      </section>
+    </main>
 
     <footer>
       <div class="footer-container"></div>
     </footer>
 
+    <script src="./js/PageUp.js"></script>
     <script src="./js/Timetable.js"></script>
   </body>
 </html>
