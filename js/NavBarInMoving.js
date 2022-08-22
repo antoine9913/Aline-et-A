@@ -1,3 +1,4 @@
+const navBarMoving = document.getElementById("navbar-all-page-container");
 const btnPageUp = document.getElementById("btn-section-up-page");
 
 btnPageUp.addEventListener("click", () => {
@@ -8,15 +9,17 @@ btnPageUp.addEventListener("click", () => {
 });
 
 window.onscroll = function () {
-  xxxxxx();
+  navBar();
 };
-function xxxxxx() {
+function navBar() {
   if (
-    document.body.scrollTop > 200 ||
-    document.documentElement.scrollTop > 200
+    document.body.scrollTop > 150 ||
+    document.documentElement.scrollTop > 150
   ) {
+    navBarMoving.style.opacity = 1;
     btnPageUp.style.opacity = 1;
   } else {
+    navBarMoving.style.opacity = 0;
     btnPageUp.style.opacity = 0;
   }
 }
