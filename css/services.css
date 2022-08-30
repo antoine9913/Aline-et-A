@@ -1,0 +1,187 @@
+.section-logo-hair {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: 0 50px;
+}
+
+.section-hair {
+    width: 50%;
+    margin: 40px 0 40px 0;
+    position: relative;
+}
+
+.section-hair-header {
+    margin: 0 0 40px 0;
+    font-weight: bold;
+    font-size: 1.7rem;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    border-top: 2px solid #77bacb;
+    border-bottom: 2px solid #a1d3a7;
+}
+
+.section-haircut {
+    margin: 20px 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.section-haircut-header {
+    padding: 0;
+    font-weight: bold;
+    font-size: 1.4rem;
+}
+
+.section-haircut-logo-title {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.section-haircut-title {
+    margin-left: 20px;
+}
+
+.scisors-logo-haircut {
+    rotate: 315deg;
+}
+
+.container-informations {    
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 160px;
+    margin-top: 100px;
+    position: relative;
+}
+
+.informations {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    width: 70%;
+}
+
+.info-logo {
+    width: 21px;
+    height: 21px;
+    border: 3px solid black;
+    border-radius: 30px;
+    text-align: center;
+    padding: 10px;
+    margin-right: 30px;
+    font-size: 1.4rem;
+}
+
+.logo-paint-brush-services-1 {
+    position: absolute;
+    left: 110px;
+    width: 70%;
+    height: 100%;
+    z-index: -1;
+}
+
+.logo-paint-brush-services-2 {
+    position: absolute;
+    top: -40px;
+    left: -70px;
+    width: 110%;
+    height: 120%;
+    z-index: -1;
+
+}
+
+.logo-paint-brush-services-3 {
+    position: absolute;
+    top: -40px;
+    left: -70px;
+    width: 110%;
+    height: 120%;
+    z-index: -1;
+
+}
+
+.logo-paint-brush-services-4 {
+    position: absolute;
+    top: -40px;
+    left: -70px;
+    width: 110%;
+    height: 120%;
+    z-index: -1;
+
+}
+
+.logo-paint-brush-services-5 {
+    position: absolute;
+    top: -40px;
+    left: -70px;
+    width: 110%;
+    height: 120%;
+    z-index: -1;
+
+}
+
+.logo-section-haircut {
+    width: 50px;
+}
+
+.logo-hair-services {
+  width: 40%;
+  -webkit-clip-path: circle(40% at 50% 50%);
+          clip-path: circle(40% at 50% 50%);
+}
+
+@-webkit-keyframes glissement {
+    from {
+      margin-left: 98%;
+      width: 300%;
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
+  
+  
+  @keyframes glissement {
+    from {
+      margin-left: 98%;
+      width: 300%;
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
+  
+  
+@-webkit-keyframes glissementReverse {
+    from {
+      margin-left: 98%;
+      width: 300%;
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
+  
+  
+  @keyframes glissementReverse {
+    from {
+      margin-left: -98%;
+      width: 100%;
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
