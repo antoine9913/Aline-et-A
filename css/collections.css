@@ -16,10 +16,16 @@
     justify-content: space-evenly;
 }
 
-.picture-collections {        
+.picture-collections {      
+    height: auto;  
     width: 30%;
     -o-object-fit: cover;
     object-fit: cover;
     margin-bottom: 30px;
     border: 10px solid white;
+}
+
+.picture-collections:hover {
+    transform: scale(1.1);
+    transition: .3s ease-in-out;
 }
