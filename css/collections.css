@@ -1,0 +1,25 @@
+.section-header-collections {
+    font-size: 2rem;
+    border-top: 2px solid #77bacb;
+    border-bottom: 2px solid #a1d3a7;
+    margin-bottom: 80px;
+}
+
+.section-collections-personal {
+    margin-bottom: 50px;
+}
+
+.section-collections {
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.picture-collections {        
+    width: 30%;
+    -o-object-fit: cover;
+    object-fit: cover;
+    margin-bottom: 30px;
+    border: 10px solid white;
+}
