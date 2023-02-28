@@ -1,8 +1,26 @@
+.navbar-moving {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+#navbar-all-page-container{
+  flex-direction: column;
+}
+
+.specification-services-moving {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 10px;
+}
+
 .section-logo-hair {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-  margin: 0 50px;
+  margin: 0 50px 50px 50px;
 }
 
 .section-hair {
@@ -134,6 +152,10 @@
   width: 40%;
   -webkit-clip-path: circle(40% at 50% 50%);
           clip-path: circle(40% at 50% 50%);
+}
+
+.footer-container {
+  padding: 0;
 }
 
 @-webkit-keyframes glissement {

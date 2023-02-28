@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="../css/index.css" />
+    <link rel="stylesheet" href="../css/produits.css" />
     <script
       src="https://kit.fontawesome.com/c4fb02f0fe.js"
       crossorigin="anonymous"
@@ -38,22 +39,104 @@
       </div>
     </header>
     <div id="navbar-all-page-container">
-      <img
-        src="/img/logo-web-transparent.webp"
-        alt="logo aline et A"
-        class="navbar-all-page-picture"
-      />
-      <nav class="navbar-all-page">
-        <a href="/index.html"> <span>Accueil</span></a>
-        <a href="/pages/collections.html"> <span>Collections</span></a>
-        <a href="/pages/produits.html"> <span>Produits</span></a>
-        <a href="/pages/services.html"> <span>Services</span></a>
-        <a href="/pages/contact.html"> <span>Contact</span></a>
-      </nav>
+      <div class="navbar-moving">
+        <img
+          src="/img/logo-web-transparent.webp"
+          alt="logo aline et A"
+          class="navbar-all-page-picture"
+        />
+        <nav class="navbar-all-page">
+          <a href="/index.html"> <span>Accueil</span></a>
+          <a href="/pages/collections.html"> <span>Collections</span></a>
+          <a href="/pages/produits.html"> <span>Produits</span></a>
+          <a href="/pages/services.html"> <span>Services</span></a>
+          <a href="/pages/contact.html"> <span>Contact</span></a>
+        </nav>
+      </div>
+      <div class="specification-produits-moving">
+        <i class="fa fa-solid fa-info info-logo"></i>
+        <div class="specification-text">
+          <p>
+            Tous les produits sont vendus et disponibles uniquement en magasin
+          </p>
+        </div>
+      </div>
     </div>
 
     <main>
-      <section class="section-container"></section>
+      <section class="section-container-product">
+        <div class="container-product">
+            <a class="container-product-site-pro" href="https://boutique.ineal.fr/orthepoux/91-lotion-curative-shampoing-soin-orthepoux-ineal-orthemius.html" target="_blank">
+              <div class="container-product-ref">
+                  <h3 class="container-product-header">
+                    Orthépoux
+                  </h3>
+                  <p class="container-product-paragraph">cliquez pour plus d'info</p>
+              </div>
+              <button
+                class="container-product-btn btn-picture-1"
+              ></button>
+            </a>
+        </div>
+
+
+        <div class="container-product">
+          <a class="container-product-site-pro" href="https://eyrian.fr/eyrian-pure.php" target="_blank">
+            <div class="container-product-ref">
+                <h3 class="container-product-header">
+                  Eyrian Pure
+                </h3>
+                <p class="container-product-paragraph">cliquez pour plus d'info</p>
+            </div>
+            <button
+              class="container-product-btn btn-picture-2"
+            ></button>
+          </a>
+        </div>
+
+
+        <div class="container-product">
+          <a class="container-product-site-pro" href="https://www.sublimo.fr/instant-traitant.php" target="_blank">
+            <div class="container-product-ref">
+                <h3 class="container-product-header">
+                  Instant traitant
+                </h3>
+                <p class="container-product-paragraph">cliquez pour plus d'info</p>
+            </div>
+            <button
+              class="container-product-btn btn-picture-3"
+            ></button>
+          </a>
+        </div>
+
+        <div class="container-product">
+          <a class="container-product-site-pro" href="https://www.sublimo.fr/shampoings-solides#" target="_blank">
+            <div class="container-product-ref">
+                <h3 class="container-product-header">
+                  Shampoing solide
+                </h3>
+                <p class="container-product-paragraph">cliquez pour plus d'info</p>
+            </div>
+            <button
+              class="container-product-btn btn-picture-4"
+            ></button>
+          </a>
+        </div>
+
+        <div class="container-product">
+          <a class="container-product-site-pro" href="https://boutique.ineal.fr/soins/439-orthe-complement-alimentaire-anti-chute-orthemius-ineal.html" target="_blank">
+            <div class="container-product-ref">
+                <h3 class="container-product-header">
+                  Orthé +
+                </h3>
+                <p class="container-product-paragraph">cliquez pour plus d'info</p>
+            </div>
+            <button
+              class="container-product-btn btn-picture-5"
+            ></button>
+          </a>
+        </div>
+      </section>
     </main>
 
     <footer>
@@ -69,7 +152,9 @@
               Besoin d'un devis, d'un renseignement ou d'une réponse a une
               question ?
             </p>
-            <button class="footer-send-question-btn">contactez nous</button>
+            <button class="footer-send-question-btn">
+              <a href="/pages/contact.html"> contactez nous </a>
+            </button>
           </div>
         </div>
         <div class="footer-copyright">

@@ -39,18 +39,29 @@
       </div>
     </header>
     <div id="navbar-all-page-container">
-      <img
-        src="/img/logo-web-transparent.webp"
-        alt="logo aline et A"
-        class="navbar-all-page-picture"
-      />
-      <nav class="navbar-all-page">
-        <a href="/index.html"> <span>Accueil</span></a>
-        <a href="/pages/collections.html"> <span>Collections</span></a>
-        <a href="/pages/produits.html"> <span>Produits</span></a>
-        <a href="/pages/services.html"> <span>Services</span></a>
-        <a href="/pages/contact.html"> <span>Contact</span></a>
-      </nav>
+      <div class="navbar-moving">
+        <img
+          src="/img/logo-web-transparent.webp"
+          alt="logo aline et A"
+          class="navbar-all-page-picture"
+        />
+        <nav class="navbar-all-page">
+          <a href="/index.html"> <span>Accueil</span></a>
+          <a href="/pages/collections.html"> <span>Collections</span></a>
+          <a href="/pages/produits.html"> <span>Produits</span></a>
+          <a href="/pages/services.html"> <span>Services</span></a>
+          <a href="/pages/contact.html"> <span>Contact</span></a>
+        </nav>
+      </div>
+      <div class="specification-services-moving">
+        <i class="fa fa-solid fa-info info-logo"></i>
+        <div class="specification-text">
+        <p>TVA de 20% et Services de 15% compris, Prise de rendez-vous par téléphone uniquement</p>
+        <p>
+          Tous les prix s'aditionne par exemple ( Shampoings spécifique et
+          traitant (5€) + Coupe entretien (17€) = 22€ )
+        </p></div>
+      </div>
     </div>
 
     <main>
@@ -762,32 +773,8 @@
                 </div>
               </div>
             </div>
-            
         </div>
       </section>
-
-      <div class="container-informations">
-        <img
-          src="../img/images-copie.webp"
-          alt="logo paint brush"
-          class="logo-paint-brush-services-1"
-        />
-        <div class="informations">
-          <i class="fa fa-solid fa-info info-logo"></i>
-          <p>TVA de 20% et Services de 15% compris</p>
-        </div>
-        <div class="informations">
-          <i class="fa fa-solid fa-info info-logo"></i>
-          <p>
-            Tous les prix s'aditionne par exemple ( Shampoings spécifique et
-            traitant (5€) + Coupe entretien (17€) = 22€ )
-          </p>
-        </div>
-        <div class="informations">
-          <i class="fa fa-solid fa-info info-logo"></i>
-          <p>Prise de rendez-vous par téléphone uniquement</p>
-        </div>
-      </div>
     </main>
 
     <footer>
@@ -803,7 +790,9 @@
               Besoin d'un devis, d'un renseignement ou d'une réponse a une
               question ?
             </p>
-            <button class="footer-send-question-btn">contactez nous</button>
+            <button class="footer-send-question-btn">
+              <a href="/pages/contact.html"> contactez nous </a>
+            </button>
           </div>
         </div>
         <div class="footer-copyright">

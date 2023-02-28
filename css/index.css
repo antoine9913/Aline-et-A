@@ -198,17 +198,13 @@ section {
     }
   }
 
-/* .section-parting-picture {    
-    width: 100%;
-    height: 540px;
-    -o-object-fit: cover;
-    object-fit: cover;
-    -o-object-position: 0px -180px;
-    object-position: 0px -160px;
-    position: absolute;
-} */
-
 .section-parting-info {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.section-parting-info-1 {
     display: flex;
     align-items: center;
     flex-direction: row;
@@ -596,8 +592,6 @@ position: relative;
 
 .footer-send-question-btn:hover {
     transform: scale(1.3);
-    border-top: 2px solid #77bacb;
-    border-bottom: 2px solid #a1d3a7;
 }
 
 .footer-copyright {
